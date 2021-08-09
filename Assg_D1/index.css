@@ -1,0 +1,17 @@
+.my-container{
+    background-color: lightgray;
+    width: 100rem;
+    height: 100rem;
+}
+
+.block1{
+    height: 150px;
+    background-color: red;
+}
+
+.block{
+    height: auto;
+    min-height: 150px;
+    background-color: yellow;
+}
+
