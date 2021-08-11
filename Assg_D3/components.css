@@ -1,0 +1,122 @@
+.banner{
+    height: 750px;
+    background-image: url('https://img.pikbest.com/58pic/28/79/03/76C58PIChd98KiDR0N6cd_PIC2018.jpg!c1024wm0/compress/true/progressive/true/format/webp/fw/1024');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_Content{
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    align-items: center;
+}
+
+.banner_title{
+    font-size: 60px;
+}
+
+
+.nav-link{
+    color: white !important;
+    font-size: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+.navigation{
+    height: 70px !important;
+}
+
+.navbar-collapse{
+    background-color: palevioletred !important;
+    border-radius: 10px;
+}
+
+.container-fluid{
+    background-color: rgb(139, 137, 255) !important;
+}
+
+.padd{
+    padding: 30px;
+}
+    /* End of Navigation */
+
+/* Start For Destinations */
+.destinations{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title{
+    text-align: center;
+}
+
+.my-card{
+    width: 400px !important;
+    margin-top: 30px !important;
+}
+
+.destination-bg{
+    background-color: palegreen;
+}
+/* End of Our Latest Products */
+
+
+.card-img-top{
+    width: 400px;
+    height: 400px;
+}
+/*Start of Map*/
+
+.map{
+    width: 100%;
+    height: 400px;
+}
+
+/*End of Map*/
+
+/* Start for ad banner */
+
+.banner-ad{
+    height: 700px;
+    background-image: url('https://images.pexels.com/photos/3601366/pexels-photo-3601366.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content{
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+}
+
+.ad-title{
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* End of ad banner */
+
+/* Start of Mobile */
+@media (max-width: 500px){
+
+
+    .banner-ad{
+        height: 500px;
+    }
+
+    .banner{
+        height: 600px;
+    }
+}
